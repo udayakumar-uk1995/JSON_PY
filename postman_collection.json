@@ -3,29 +3,30 @@
   			{
  				"name": "smoke",   
 				"item": ["أهلا", "Political Science"] 
+			},
+			{
+ 				"name": "أهلا",   
+				"item": ["أهلا", "Political Science"] 
+			},
+    			{
+				"key": "arebic_filename",
+				"name": "ـاـبـتـثـجـحـخـدـذـرـزـسـشـصـضـطـظـعـفـغـقـكـلـمـنـهـوـي.csv",
+				"type": "default"
+			},
+			{
+				"key": "korean_filename",
+				"name": "ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣ.csv",
+				"type": "default"
+			},
+			{
+				"key": "chinese_filename",
+				"name": "山人口刀木日月女子馬鸟目水.csv",
+				"type": "default"
+			},
+			{
+				"key": "russian_filename",
+				"value": "бвгджзклмнпрстфхцчшщ.csv",
+				"type": "default"
 			}
-			],
-
-	"variale": [
-    	{
-			"key": "arebic_filename",
-			"value": "ـاـبـتـثـجـحـخـدـذـرـزـسـشـصـضـطـظـعـفـغـقـكـلـمـنـهـوـي.csv",
-			"type": "default"
-		},
-		{
-			"key": "korean_filename",
-			"value": "ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣ.csv",
-			"type": "default"
-		},
-		{
-			"key": "chinese_filename",
-			"value": "山人口刀木日月女子馬鸟目水.csv",
-			"type": "default"
-		},
-		{
-			"key": "russian_filename",
-			"value": "бвгджзклмнпрстфхцчшщ.csv",
-			"type": "default"
-    	}
-	]
+		]
 }
