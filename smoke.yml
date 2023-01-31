@@ -15,6 +15,7 @@ steps:
       print(path)
       f = open(path)
       print(f)
+      print(f)
       data = json.load(f)
       smoke = "0"
       regression = "0"
