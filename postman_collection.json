@@ -1,12 +1,3 @@
-"item": [
-        {
-            "name": dev
-            "item": []
-        },
-        {
-          "name": smoke
-          "item": [
-                  {}
-                  ]
-        }
-]
+{"name": "Peter",   
+"Subjects": ["English", "Political Science"]  
+}
