@@ -1,0 +1,27 @@
+
+
+steps:
+
+- task: PythonScript@0
+  displayName: 'Run a Python script'
+  continueOnError: true
+  name: RunTest
+  inputs:
+    scriptSource: inline
+    pythonInterpreter: /usr/bin/python3
+    script: |
+      import os
+      import json
+      import io
+      path = '../postman_collection.json'
+      print(path)
+      f = open(path)
+      data = json.load(f)
+      smoke = "0"
+      regression = "0"
+      for i in data["item"]:
+        if i["name"] == "smoke":
+          print("SMOKE EXIST")
+          smoke = "1"        
+      print("Smoke exists :",smoke)
+      print("##vso[task.setvariable variable=smoke]" + smoke)
