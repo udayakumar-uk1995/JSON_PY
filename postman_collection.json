@@ -5,6 +5,12 @@
 				"item": ["أهلا", "Political Science"] 
 			}
 		],
+	"body": {
+		"mode": "file"
+		"file": {
+			"src": "ـاـبـتـثـجـحـخـدـذـرـزـسـشـصـضـطـظـعـفـغـقـكـلـمـنـهـوـي.csv"
+			}
+		},
 	"item": [
   			{
  				"name": "smoke",   
