@@ -16,7 +16,7 @@ steps:
       f = open(path)
       print(f)
       print(f)
-      data = json.load(f)
+      data = json.loads(f)
       smoke = "0"
       regression = "0"
       for i in data["item"]:
