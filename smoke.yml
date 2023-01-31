@@ -13,9 +13,8 @@ steps:
       import io
       path = '$(System.DefaultWorkingDirectory)/postman_collection.json'
       print(path)
-      f = open(path, 'r', encoding='UTF-8')
-      print(f)
-      data = json.loads(f)
+      with open($(System.DefaultWorkingDirectory)/postman_collection.json) as f:
+        data = json.load(f)
       smoke = "0"
       regression = "0"
       for i in data["item"]:
