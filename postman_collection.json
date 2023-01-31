@@ -10,23 +10,29 @@
 			},
     			{
 				"key": "arebic_filename",
-				"name": "ـاـبـتـثـجـحـخـدـذـرـزـسـشـصـضـطـظـعـفـغـقـكـلـمـنـهـوـي.csv",
+				"value": "ـاـبـتـثـجـحـخـدـذـرـزـسـشـصـضـطـظـعـفـغـقـكـلـمـنـهـوـي.csv",
 				"type": "default"
 			},
 			{
 				"key": "korean_filename",
-				"name": "ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣ.csv",
+				"value": "ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣ.csv",
 				"type": "default"
 			},
 			{
 				"key": "chinese_filename",
-				"name": "山人口刀木日月女子馬鸟目水.csv",
+				"value": "山人口刀木日月女子馬鸟目水.csv",
 				"type": "default"
 			},
 			{
 				"key": "russian_filename",
 				"value": "бвгджзклмнпрстфхцчшщ.csv",
 				"type": "default"
+			}
+		],
+	"item": [
+  			{
+ 				"name": "ㄱㄴㄷㄹㅁㅂㅅㅇ",   
+				"item": "korean_filename",
 			}
 		]
 }
