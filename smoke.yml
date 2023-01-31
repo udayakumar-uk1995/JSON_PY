@@ -10,9 +10,10 @@ steps:
     script: |
       import os
       import json
+      import io
       path = '$(System.DefaultWorkingDirectory)/postman_collection.json'
       print(path)
-      with open('postman_collection.json', 'r') as json_file:
+      with io.open('$(System.DefaultWorkingDirectory)/postman_collection.json', 'r') as json_file:
         data = json.load(json_file)
       smoke = "0"
       regression = "0"
