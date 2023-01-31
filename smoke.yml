@@ -13,8 +13,7 @@ steps:
       import io
       path = '$(System.DefaultWorkingDirectory)/postman_collection.json'
       print(path)
-      f = open(path)
-      print(f)
+      f = read(path)
       print(f)
       data = json.loads(f)
       smoke = "0"
